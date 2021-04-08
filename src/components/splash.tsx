@@ -12,9 +12,10 @@ const Splash: React.FC = () => {
                     <h3 className="h3-header typewriter-1">Hi,</h3>
                     <h1 className="h1-header typewriter-2">I'm Mike Nguyen.</h1>
                     <div className="header-description typewriter-3">Full-Stack Developer / Entrepreneur / Sneakerhead / Dog Enthusiast</div>
-                    <div className="arrow-container">
+                    <div className="arrow-container fade-in-delayed-2">
                         <span className="text">More About Me!</span>
-                        <div className='circle-border'>
+                        <div>
+                        {/* <div className='circle-border'> */}
                             <a href='#'>
                                 <div className="chevron"></div>
                                 <div className="chevron"></div>
@@ -24,9 +25,9 @@ const Splash: React.FC = () => {
                     </div>
                 </div>
                 <div className="splash-child">
-                    <div className="progress-bar-container">
+                    <div className="progress-bar-container fade-in-delayed">
                         <div className="progress-bar-container-label">
-                            Skills & Expertise:
+                            My Skills & Expertise:
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">Back-end</div>
