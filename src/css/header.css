@@ -1,0 +1,75 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
+img {
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: "RockoFLF";
+    src: url("../../fonts/Rocko/RockoFLF.ttf");
+}
+
+.sticky-wrapper {
+    position: relative;
+    height: 120px;
+}
+
+.sticky .sticky-inner {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #1D1D1D;
+    height: 120px;
+    box-shadow: 0 5px 5px #161616;
+}
+
+.topnav-left {
+    float: left;
+    padding-left: 40px;
+}
+
+.topnav-right {
+    float: right;
+    padding-right: 40px;
+}
+
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    float: right;
+    padding: 0px 15px;
+    height: 100%;
+    color: #1595FF;
+}
+
+.header-button {
+    font-family: 'RockoFLF';
+    /* font-family: 'Butler Extra Bold'; */
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    float: right;
+    padding: 0px 15px;
+    height: 100%;
+    color: #909096;
+}

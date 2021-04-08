@@ -1,0 +1,15 @@
+html, body, #root, .App {
+    height: 100%;
+    margin: 0;
+}
+
+.full-height {
+    height: 100%;
+    background: #1D1D1D;
+}
+
+.body {
+    margin-top: 10px;
+    background-color: #1D1D1D;
+    height: 100%;
+}

@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "Butler Extra Bold";
+    src: url("../../fonts/Butler/Butler_ExtraBold.otf");
+}
+
+@font-face {
+    font-family: "Butler Light";
+    src: url("../../fonts/Butler/Butler_Light.otf");
+}
+
+@font-face {
+    font-family: "Butler Medium";
+    src: url("../../fonts/Butler/Butler_Medium.otf");
+}
+
+.splash-container {
+    padding-top: 5%;
+    background-color: #1D1D1D;
+    /* height: 100%; */
+    color: white;
+}
+
+.splash-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* float: left; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.splash-child {
+    flex: 1;
+    padding: 0.5%;
+}
+
+.h3-header {
+    font-family: 'Butler Light';
+    font-size: 60px;
+    color: #1D1D1D;
+}
+
+.h1-header {
+    font-family: 'Butler Light';
+    font-size: 90px;
+    color: #1D1D1D;
+}
+
+.header-description {
+    font-family: 'Butler Light';
+    font-size: 30px;
+    color: #1D1D1D;
+}
+
+.progress-bar {
+    padding: 15px;
+}
+
+.progress-bar-label {
+    font-family: 'RockoFLF';
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #dbdbdb;
+}
+
+.progress-bar-container-label {
+    font-family: 'RockoFLF';
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 30px;
+    color: #909096;
+}
+
+.circle-border {
+    /* border-radius: 50%; */
+    border: 1px solid #909096;
+    overflow: auto;
+    /* zoom: 1; */
+}
+
+.arrow-container {
+    width: 30px;
+    height: 30px;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before, .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #909096;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.text {
+    display: block;
+    margin-top: 100px;
+    font-family: 'Butler Medium';
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    /* opacity: .15; */
+    /* animation: pulse 2s linear alternate infinite; */
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
+}
+
+.typewriter-1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #1D1D1D;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; */
+    /* Adjust as needed */
+    animation: typing 1.5s steps(40, end), blink-caret .75s, show-color-1 step-end infinite;
+    animation-fill-mode: forwards;
+}
+
+.typewriter-2 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #1D1D1D;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; */
+    /* Adjust as needed */
+    animation: typing 1.5s steps(40, end), blink-caret .75s, show-color-2 step-end infinite;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.typewriter-3 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #1D1D1D;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; */
+    /* Adjust as needed */
+    animation: typing 1.5s steps(40, end), blink-caret .75s, show-color-3 step-end infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #1D1D1D;
+    }
+}
+
+@keyframes show-color-1 {
+    from {
+        color: #1D1D1D;
+    }
+    to {
+        color: #FFFFFF
+    }
+}
+
+@keyframes show-color-2 {
+    from {
+        color: #1D1D1D;
+    }
+    to {
+        color: #7FDBF4
+    }
+}
+
+@keyframes show-color-3 {
+    from {
+        color: #1D1D1D;
+    }
+    to {
+        color: #909096
+    }
+}
