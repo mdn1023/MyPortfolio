@@ -31,27 +31,27 @@ const Splash: React.FC = () => {
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">Back-end</div>
-                            <ProgressBar completed={85} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#FF3C3C'} labelColor={'#FF3C3C'}/>
+                            <ProgressBar completed={85} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#D2B4DE'} labelColor={'#FF3C3C'}/>
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">Front-end</div>
-                            <ProgressBar completed={50} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#90FF63'} labelColor={'#90FF63'}/>
+                            <ProgressBar completed={50} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#D29AE8'} labelColor={'#90FF63'}/>
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">Javascript</div>
-                            <ProgressBar completed={80} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#EFD81D'} labelColor={'#EFD81D'}/>
+                            <ProgressBar completed={80} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#BE6FFE'} labelColor={'#EFD81D'}/>
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">Golang</div>
-                            <ProgressBar completed={75} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#6AD6E3'} labelColor={'#6AD6E3'}/>
+                            <ProgressBar completed={75} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#A341F3'} labelColor={'#6AD6E3'}/>
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">ReactJS</div>
-                            <ProgressBar completed={55} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#A539FF'} labelColor={'#A539FF'}/>
+                            <ProgressBar completed={55} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#9329EB'} labelColor={'#A539FF'}/>
                         </div>
                         <div className="progress-bar">
                             <div className="progress-bar-label">MongoDB</div>
-                            <ProgressBar completed={60} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#589636'} labelColor={'#589636'}/>
+                            <ProgressBar completed={60} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#7600D8'} labelColor={'#589636'}/>
                         </div>
                     </div>
                 </div>
