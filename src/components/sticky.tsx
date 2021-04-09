@@ -7,7 +7,7 @@ const Sticky: React.FC = () => {
             <div className="topnav">
                 <div className="topnav-left">
                     <div className="logo">
-                        <img src="../../images/bigmike_2.png" width="100" height="100" />
+                        <img src="../../images/bigmike_2.png" className='logo-image' width="100" height="100" />
                     </div>
                 </div>
                 <div className="topnav-right">

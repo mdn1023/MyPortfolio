@@ -12,13 +12,21 @@ html {
     scroll-padding-top: 120px;
 }
 
-img {
+.logo-image {
     border-radius: 50%;
+    border-color: #FFFFFF;
+    border-width: 2;
+    border-style: solid;
 }
 
 @font-face {
     font-family: "RockoFLF";
     src: url("../../fonts/Rocko/RockoFLF.ttf");
+}
+
+@font-face {
+    font-family: "RockoFLF-Bold";
+    src: url("../../fonts/Rocko/RockoFLF-Bold.ttf");
 }
 
 .sticky-wrapper {

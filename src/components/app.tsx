@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./header";
 import Splash from "./splash";
 import Portfolio from "./portfolio";
+import Experience from "./experience";
 
 import '../css/body.css';
 import '../css/body.css';
@@ -13,6 +14,9 @@ const App: React.FC = () => {
         <body>
             <section id='splash'>
                 <Splash></Splash>
+            </section>
+            <section id='experience'>
+              <Experience></Experience>
             </section>
             <section id='portfolio'>
                 <Portfolio></Portfolio>

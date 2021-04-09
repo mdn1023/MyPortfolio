@@ -1,0 +1,126 @@
+.experience-container {
+    padding-top: 2%;
+    background-color: #1D1D1D;
+    /* height: 100%; */
+    color: white;
+}
+
+.experience-label {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1D1D1D;
+    color: #7FDBF4;
+    font-family: 'Butler Medium';
+    font-size: 40px;
+}
+
+
+.experience-section {
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: row;
+    background-color: #2f2e2e;
+    height: auto;
+    width: 80vw;
+    color: white;
+    border: 2 solid #2f2e2e;
+    border-radius: 25px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.experience-inner-container {
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.experience-logo {
+    /* float: left; */
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 2 solid #2f2e2e;
+    border-radius: 10px;
+}
+
+.experience-info-container {
+    position: relative;
+    /* display: flex; */
+    border: 2 solid #2f2e2e;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.experience-info-company-name {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Butler Medium';
+    /* font-family: 'Butler Extra Bold'; */
+    font-size: 25px;
+    width: 100%;
+    /* text-decoration: underline;
+    text-underline-offset: 3px; */
+}
+
+.experience-tenure-container {
+    padding-top: 3px;
+    display: flex;
+    width: 100%;
+}
+
+.experience-tenure-left {
+    width: 50%;
+    color: #7e7e7e;
+    font-family: 'RockoFLF';
+    font-size: 18px;
+}
+.experience-tenure-right {
+    text-align: right;
+    width: 50%;
+    color: #7e7e7e;
+    font-family: 'RockoFLF';
+    font-size: 18px;
+}
+
+.experience-responsibilities {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #b8b8b8;
+    font-family: 'RockoFLF';
+    font-size: 18px;
+}
+
+.experience-technology-stack-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+/* .experience-technology-stack-container>* {
+    flex: 1 1 160px;
+} */
+
+.technology-stack-item {
+    margin: 5px 8px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    /* border-color: #8d8d8d;
+    border-width: thin;
+    border-style: solid; */
+    font-family: 'RockoFLF';
+    font-size: 16px;
+    background-color: #3f3e3e;
+}
