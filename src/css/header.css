@@ -8,6 +8,10 @@ html,body {
     padding:0;
 }
 
+html {
+    scroll-padding-top: 120px;
+}
+
 img {
     border-radius: 50%;
 }
@@ -24,7 +28,7 @@ img {
 
 .sticky .sticky-inner {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
 }
 

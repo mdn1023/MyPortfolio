@@ -16,7 +16,7 @@ const Splash: React.FC = () => {
                         <span className="text">More About Me!</span>
                         <div>
                         {/* <div className='circle-border'> */}
-                            <a href='#'>
+                            <a href='#portfolio'>
                                 <div className="chevron"></div>
                                 <div className="chevron"></div>
                                 <div className="chevron"></div>

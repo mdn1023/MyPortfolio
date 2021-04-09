@@ -1,15 +1,23 @@
 import React from "react";
 import Header from "./header";
-import Body from "./body";
+import Splash from "./splash";
+import Portfolio from "./portfolio";
+
+import '../css/body.css';
 import '../css/body.css';
 
 const App: React.FC = () => {
   return (
     <div className="full-height">
         <Header />
-        <div className="body">
-            <Body></Body>
-        </div>
+        <body>
+            <section id='splash'>
+                <Splash></Splash>
+            </section>
+            <section id='portfolio'>
+                <Portfolio></Portfolio>
+            </section>
+        </body>
     </div>
   );
 };
