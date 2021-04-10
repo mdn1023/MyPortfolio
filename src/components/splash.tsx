@@ -13,9 +13,8 @@ const Splash: React.FC = () => {
                     <h1 className="h1-header typewriter-2">I'm Mike Nguyen.</h1>
                     <div className="header-description typewriter-3">Full-Stack Developer / Entrepreneur / Sneakerhead / Dog Enthusiast</div>
                     <div className="arrow-container fade-in-delayed-2">
-                        <span className="text">More About Me!</span>
+                        <span className="text"><a href='#experience'>More About Me!</a></span>
                         <div>
-                        {/* <div className='circle-border'> */}
                             <a href='#experience'>
                                 <div className="chevron"></div>
                                 <div className="chevron"></div>
@@ -29,7 +28,7 @@ const Splash: React.FC = () => {
                         <div className="progress-bar-container-label">
                             My Skills & Expertise:
                         </div>
-                        <div className="progress-bar">
+                        {/* <div className="progress-bar">
                             <div className="progress-bar-label">Back-end</div>
                             <ProgressBar completed={85} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#D2B4DE'} labelColor={'#FF3C3C'}/>
                         </div>
@@ -52,6 +51,30 @@ const Splash: React.FC = () => {
                         <div className="progress-bar">
                             <div className="progress-bar-label">MongoDB</div>
                             <ProgressBar completed={60} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#7600D8'} labelColor={'#589636'}/>
+                        </div> */}
+                        <div className="progress-bar">
+                            <div className="progress-bar-label">Back-end</div>
+                            <ProgressBar completed={85} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#BFF0FD'} labelColor={'#FF3C3C'}/>
+                        </div>
+                        <div className="progress-bar">
+                            <div className="progress-bar-label">Front-end</div>
+                            <ProgressBar completed={50} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#97E0F4'} labelColor={'#90FF63'}/>
+                        </div>
+                        <div className="progress-bar">
+                            <div className="progress-bar-label">Javascript</div>
+                            <ProgressBar completed={80} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#7AD2EA'} labelColor={'#EFD81D'}/>
+                        </div>
+                        <div className="progress-bar">
+                            <div className="progress-bar-label">Golang</div>
+                            <ProgressBar completed={75} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#56BDDA'} labelColor={'#6AD6E3'}/>
+                        </div>
+                        <div className="progress-bar">
+                            <div className="progress-bar-label">ReactJS</div>
+                            <ProgressBar completed={55} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#3DADCC'} labelColor={'#A539FF'}/>
+                        </div>
+                        <div className="progress-bar">
+                            <div className="progress-bar-label">MongoDB</div>
+                            <ProgressBar completed={60} baseBgColor={'#373737'} height={'8px'} labelSize={'0px'} bgColor={'#1E92B2'} labelColor={'#589636'}/>
                         </div>
                     </div>
                 </div>

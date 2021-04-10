@@ -18,6 +18,9 @@ const App: React.FC = () => {
             <section id='experience'>
               <Experience></Experience>
             </section>
+            <section id='portfolio'>
+              <Portfolio></Portfolio>
+            </section>
         </body>
     </div>
   );

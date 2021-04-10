@@ -24,9 +24,10 @@ const Experience: React.FC = () => {
                         </div>
                         <div className='experience-responsibilities'>
                             <ul>
-                                <li className='responsibilities-row'>Operate a subscription-based <mark className='purple-text'>Discord</mark> hub serving <mark className='red-text'>over 200 clients</mark> focused on obtaining <mark className='yellow-text'>highly valued, limited-stock products.</mark></li>
-                                <li className='responsibilities-row'>Developed low-latency product avaibility monitors with a sophisticated ping-messaging system to delivery high quality notifications to clients.</li>
-                                <li className='responsibilities-row'>Leveraged PuppeteerJS' web-scraping API to analyze and identify profitable investment opportunities for clients.</li>
+                                <li className='responsibilities-row'>Operate a subscription-based Discord hub serving over 200 clients focused on obtaining highly valued, limited-stock products.</li>
+                                <li className='responsibilities-row'>Developed low-latency product avaibility monitors integrated with a sophisticated ping-messaging system to delivery personalized notifications to clients.</li>
+                                <li className='responsibilities-row'>Implemented a "smart" proxy pool rotator algorithm to preserve proxy integrity & maintain 24/7 uptime of product monitors.</li>
+                                <li className='responsibilities-row'>Leveraged PuppeteerJS' web-scraping API to analyze & identify profitable investment opportunities for clients.</li>
                             </ul>
                         </div>
                         <div className='experience-technology-stack-container'>
@@ -80,9 +81,9 @@ const Experience: React.FC = () => {
                         </div>
                         <div className='experience-responsibilities'>
                             <ul>
-                                <li className='responsibilities-row'>Owned a backend payment microservices responsible for processing <mark className='red-text'>thousands of transactions per day</mark>, while upholding strict PCI security standards through <mark className='yellow-text'>RSA-based encrpytion</mark> of sensitive user data.</li>
-                                <li className='responsibilities-row'>Increased project revenue and improved user checkout experience by implementing an upsell flow, allowing users to purchase all necessary items for their reservation.</li>
-                                <li className='responsibilities-row'>Created ReactJS web pages to serve the needs of the external customer-facing and internal hub sites.</li>
+                                <li className='responsibilities-row'>Owned a backend payment microservices responsible for processing thousands of transactions per day, while upholding strict PCI security standards through RSA-based encrpytion of sensitive user data.</li>
+                                <li className='responsibilities-row'>Increased project revenue & improved user checkout experience by implementing an upsell flow, allowing users to purchase all necessary items for their reservation.</li>
+                                <li className='responsibilities-row'>Created ReactJS web pages to serve the needs of both external customer-facing & internal hub sites.</li>
                                 <li className='responsibilities-row'>Implemented CassandraQL Data Access Object (DAO) interfaces to expose APIs for data handling.</li>
                             </ul>
                         </div>
@@ -129,8 +130,8 @@ const Experience: React.FC = () => {
                         </div>
                         <div className='experience-responsibilities'>
                             <ul>
-                                <li className='responsibilities-row'>Automated code review flow for the Edge team, responsible for maintaining the integrity and security of Twitch's internal API middleware.</li>
-                                <li className='responsibilities-row'>Leveraged GitHub, Slack and Jira APIs to track repository code changes, automate management of Jira ticket states, and delivering Slack notifications to team members regarding code reviews.</li>
+                                <li className='responsibilities-row'>Automated code review flow for the Edge team, responsible for maintaining the integrity & security of Twitch's internal API middleware.</li>
+                                <li className='responsibilities-row'>Leveraged GitHub, Slack & Jira APIs to track repository code changes, automate management of Jira ticket states, & delivering Slack notifications to team members regarding code reviews.</li>
                             </ul>
                         </div>
                         <div className='experience-technology-stack-container'>
@@ -179,7 +180,7 @@ const Experience: React.FC = () => {
                         </div>
                         <div className='experience-responsibilities'>
                             <ul>
-                                <li className='responsibilities-row'>Redesigned an internal web interface for vendors create, track, and deploy coupons for store inventory.</li>
+                                <li className='responsibilities-row'>Redesigned an internal web interface for vendors create, track, & deploy coupons for store inventory.</li>
                                 <li className='responsibilities-row'>Developed internal APIs for Amazon’s coupons inventory service to expose new performance metrics.</li>
                             </ul>
                         </div>
@@ -195,6 +196,42 @@ const Experience: React.FC = () => {
                             </div>
                             <div className='technology-stack-item'>
                                 AWS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="experience-section">
+                <div className='experience-inner-container'>
+                    <img src='../../images/experience_logos/solvista.png' className='experience-logo'></img>
+                    <div className='experience-info-container'>
+                        <div className='experience-info-company-name'>
+                                Sol Vista
+                        </div>
+                        <div className='experience-tenure-container'>
+                            <div className='experience-tenure-left'>
+                                Software Developer/Data Specialist
+                            </div>
+                            <div className='experience-tenure-right'>
+                                January 2017 - May 2017
+                            </div>
+                        </div>
+                        <div className='experience-responsibilities'>
+                            <ul>
+                                <li className='responsibilities-row'>Designed & implemented an internal employee user interface to streamline data management.</li>
+                                <li className='responsibilities-row'>Maintained over 40 scripts used to automate data extraction of PDF-formatted utility bills.</li>
+                                <li className='responsibilities-row'>Extensively tested the client-facing web application used to exchange compiled reports & utility data.</li>
+                            </ul>
+                        </div>
+                        <div className='experience-technology-stack-container'>
+                            <div className='technology-stack-item'>
+                                Java
+                            </div>
+                            <div className='technology-stack-item'>
+                                JavaFX
+                            </div>
+                            <div className='technology-stack-item'>
+                                Microsoft Suite API
                             </div>
                         </div>
                     </div>

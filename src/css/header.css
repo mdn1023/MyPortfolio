@@ -72,6 +72,10 @@ html {
     color: #1595FF;
 }
 
+.header-list-item {
+    display: inline;
+}
+
 .header-button {
     font-family: 'RockoFLF';
     /* font-family: 'Butler Extra Bold'; */
@@ -84,4 +88,9 @@ html {
     padding: 0px 15px;
     height: 100%;
     color: #909096;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    color: #d6d6d6;
 }
