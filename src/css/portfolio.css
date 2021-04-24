@@ -1,0 +1,47 @@
+* { margin: 0; padding: 0; }
+
+.portfolio-container {
+    padding-top: 2%;
+    background-color: #1D1D1D;
+    /* height: 100%; */
+    color: white;
+}
+
+.portfolio-label {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1D1D1D;
+    color: #7FDBF4;
+    font-family: 'Butler Medium';
+    font-size: 40px;
+}
+
+.portfolio-section-container {
+    padding-bottom: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.portfolio-item {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 5px;
+    display: flex;
+    background-color: #2f2e2e;
+    height: auto;
+    width: 40vw;
+    color: white;
+    border: 2 solid #2f2e2e;
+    border-radius: 25px;
+    position: relative;
+}
+
+.inner {
+    position: relative;
+}
